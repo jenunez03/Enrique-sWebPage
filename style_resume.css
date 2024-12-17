@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Nave';
+    src: url('fonts/Nave.ttf') format('truetype');
+  }
+body {
+    margin: 0%;
+}
+header {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    color: #ffff;
+    font-family: 'Nave', cursive;
+    background-color: rgb(29, 16, 16);
+    opacity: 70%;
+}
+menu {
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    margin-right: 4%;
+    font-size: 40px;
+    font-family: 'Dancing Script', Cursive;
+}
+.logo {
+    width: 4%;
+    margin-right: 8%;
+    margin-top: 20px;
+}
+.menu-sections {
+    display: inline-block;
+    margin-left: 50px;
+    border-right: 1px solid #ffff;
+    padding-right: 40px;
+}
+.home {
+    height: 20px;
+}
+a{
+    color: #ffff;
+}
+a:hover{
+    color: red;
+}
+main {
+    width: 50%;
+    float: left;
+
+}
+h1 {
+    width: 100%;
+    font-family:'Nave', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #ffff;
+}
+
+h2 {
+    width: 100%;
+    font-family:'Nave', cursive;
+    font-size: 35px;
+    margin-left: 10%;
+    color: #ffff;
+}
+.info {
+    width: 100%;
+    font-family:'Nave', cursive;
+    font-size: 20px;
+    margin-left: 10%;
+    color: #ffff;
+}
+ul {
+    width: 80%;
+    font-family:'Nave', cursive;
+    font-size: 20px;
+    margin-left: 10%;
+    color: #ffff;
+}
+.resume {
+    width: 80%;
+    font-family:'Nave', cursive;
+    font-size: 20px;
+    margin-left: 10%;
+    color: #ffff;
+}
+.image_box {
+    width: 49%;
+    height: 925px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_bio {
+    width: 65%;
+    float: right;
+}
+footer {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 16, 16);
+    opacity: 70%;
+    font-family: 'Dancing Script', cursive;
+    color: #ffff;
+}
+.instagram_icon {
+    height: 40px;
+    margin-left: 20px;
+}
+.media {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.copyright {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

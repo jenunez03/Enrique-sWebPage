@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Nave';
+    src: url('fonts/Nave.ttf') format('truetype');
+  }
+body {
+    margin: 0%;
+}
+header {
+    text-align: center;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Nave', cursive;
+}
+menu {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 16, 16);
+}
+
+.name {
+    margin-right: 4%;
+    font-size: 40px;
+    font-family: 'Dancing Script', Cursive;
+}
+.logo {
+    width: 4%;
+    margin-right: 8%;
+    margin-top: 20px;
+}
+.menu-sections {
+    display: inline-block;
+    margin-left: 50px;
+    border-right: 1px solid #ffff;
+    padding-right: 40px;
+}
+.home {
+    height: 20px;
+}
+a{
+    color: #ffff;
+}
+a:hover{
+    color: red;
+}
+h1 {
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Nave', cursive;
+    text-align: center;
+    color: #ffff;
+    margin-top: 5%;
+}
+.sections {
+    width: 100%;
+    font-family: 'Nave', cursive;
+}
+.dates {
+    width: 100%;
+    font-size: 35px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+.paintings {
+    width: 100%;
+    columns: 3;
+}
+.paintingsize {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.paintingtitles {
+    width: 100%;
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+}
+.boxes {
+    width: 100%;
+    height: 750px;
+}
+footer {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 16, 16);
+    opacity: 70%;
+    font-family: 'Dancing Script', cursive;
+    color: #ffff;
+}
+.instagram_icon {
+    height: 40px;
+    margin-left: 20px;
+}
+.media {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.copyright {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
